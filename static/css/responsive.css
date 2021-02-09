@@ -189,11 +189,83 @@
 .moments{
 padding-bottom: 66px;
 }
+
   main.mobile {
     display: block;
   }
   main.dekstop {
     display: none;
+  }
+  .nav-tabs .nav-link .icon-1{
+    background-image: url("../images/Ring.svg");
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .nav-tabs .nav-link.active .icon-1{
+    background-image: url("../images/Bold-Ring.svg");
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .nav-tabs .nav-link .icon-2{
+    background-image: url("../images/Date.svg");
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .nav-tabs .nav-link.active .icon-2{
+    background-image: url("../images/Bold-Date.svg");
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .nav-tabs .nav-link .icon-3{
+    background-image: url("../images/Pin.svg");
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .nav-tabs .nav-link.active .icon-3{
+    background-image: url("../images/Bold-Pin.svg");
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .nav-tabs .nav-link .icon-4{
+    background-image: url("../images/Photo.svg");
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .nav-tabs .nav-link.active .icon-4{
+    background-image: url("../images/Bold-Photo.svg");
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .nav-tabs .nav-link .icon-5{
+    background-image: url("../images/Comment.svg");
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .nav-tabs .nav-link.active .icon-5{
+    background-image: url("../images/Bold-Comment.svg");
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
