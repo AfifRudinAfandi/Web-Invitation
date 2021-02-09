@@ -119,6 +119,7 @@
   }
   .place {
     min-height: 100vh;
+    margin-bottom: 64px;
   }
   .place .maps-title{
     margin-top: 0;
