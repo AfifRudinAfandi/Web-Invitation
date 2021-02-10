@@ -105,6 +105,9 @@
   width: 19%;
   max-width: 260px;
 }
+.form-control:focus{
+  box-shadow: none;
+}
 .opening .and-logo {
   position: absolute;
   bottom: 187px;
@@ -530,4 +533,7 @@ img.zoom-img {
 }
 .zoom-overlay-transitioning .zoom-overlay {
   opacity: 0;
+}
+button:focus {
+  outline: none !important;
 }
