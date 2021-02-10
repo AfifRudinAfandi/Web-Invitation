@@ -116,7 +116,7 @@
 }
 .closing {
   padding-top: 36px;
-  padding-bottom: 120px;
+  padding-bottom: 0px;
 }
 .closing .closing-1 {
   margin-left: 0;
@@ -188,7 +188,8 @@
     object-position: center;
   }
   .form-result {
-    padding-top: 12px;
+    margin-top: 68px;
+    padding-top: 0;
     padding-bottom: 12px;
     min-height: max-content;
 }
@@ -240,7 +241,7 @@
   align-items: center;
 }
 .moments{
-padding-bottom: 66px;
+  margin-top: 120px;
 }
 
   main.mobile {
